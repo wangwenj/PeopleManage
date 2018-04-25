@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>编写公告</title>
+
+    <link rel="shortcut icon" href="favicon.ico"> <link href="css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
+    <link href="css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/plugins/simditor/simditor.css" />
+    <link href="css/style.min862f.css?v=4.1.0" rel="stylesheet">
+
+</head>
+
+<body class="gray-bg">
+<div class="wrapper wrapper-content">
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h3>编写公告</h3>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                        <textarea id="editor" placeholder="这里输入内容" autofocus>
+                        </textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div align="center">
+        <form action="" method="">
+            <input type="button" value="取消" class="btn btn-primary"
+                   style="width: 80px;line-height: 20px;margin-right: 50px;">
+            <input type="submit" value="提交公告" class="btn btn-primary" style="margin-right:50px;">
+        </form>
+    </div>
+</div>
+<script src="js/jquery.min.js?v=2.1.4"></script>
+<script src="js/bootstrap.min.js?v=3.3.6"></script>
+<script src="js/content.min.js?v=1.0.0"></script>
+<script type="text/javascript" src="js/plugins/simditor/module.js"></script>
+<script type="text/javascript" src="js/plugins/simditor/uploader.js"></script>
+<script type="text/javascript" src="js/plugins/simditor/hotkeys.js"></script>
+<script type="text/javascript" src="js/plugins/simditor/simditor.js"></script>
+<script>
+    $(document).ready(function(){var editor=new Simditor({textarea:$("#editor"),defaultImage:"img/a9.jpg"})});
+</script>
+<script type="text/javascript" src="http://tajs.qq.com/stats?sId=9051096" charset="UTF-8"></script>
+</body>
+
+
+</html>
