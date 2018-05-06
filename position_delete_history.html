@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <title>职位管理</title>
+    <title>职位删除历史</title>
 
     <link rel="shortcut icon" href="favicon.ico">
     <link href="css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
@@ -21,20 +21,15 @@
         <div class="ibox ">
             <div class="ibox-content">
                 <div class="example-wrap">
-                    <button type="button" class="btn btn-outline btn-default">
-                        <a href="position_manage01.html">选择部门
-                            <i class="glyphicon glyphicon-backward" aria-hidden="true"></i></a>
-                    </button>
-                    <h4 class="example-title" style="display: ">设计部</h4>
+                    <h4 class="example-title" style="display: inline-block">职位删除历史</h4>
                     <div class="example">
                         <div class="btn-group hidden-xs" id="exampleTableEventsToolbar" role="group">
-                            <button type="button" class="btn btn-outline btn-default">
-                                <i class="glyphicon glyphicon-plus" aria-hidden="true"></i>
+                            <button type="button" class="btn btn-outline btn-default"
+                            style="background-color: #1ab394;color: whitesmoke;border-color:#1ab394;border-right-color: whitesmoke">恢复
+                                    <i class="glyphicon glyphicon-backward" aria-hidden="true"></i>
                             </button>
-                            <button type="button" class="btn btn-outline btn-default">
-                                <i class="glyphicon glyphicon-pencil" aria-hidden="true"></i>
-                            </button>
-                            <button type="button" class="btn btn-outline btn-default">
+                            <button type="button" class="btn btn-outline btn-default"
+                            style="background-color: #1ab394;color: whitesmoke;border-color:#1ab394;border-left-color: whitesmoke">彻底删除
                                 <i class="glyphicon glyphicon-trash" aria-hidden="true"></i>
                             </button>
                         </div>
@@ -42,10 +37,11 @@
                             <thead>
                             <tr>
                                 <th data-field="state" data-checkbox="true"></th>
-                                <th data-field="departName" class="col-lg-2">职位</th>
-                                <th data-field="departId" class="col-lg-2">代码</th>
-                                <th data-field="intro" class="col-lg-4">简介</th>
-                                <th data-field="location" class="col-lg-2">姓名</th>
+                                <th data-field="positionName" class="col-lg-2">职位</th>
+                                <th data-field="departName" class="col-lg-2">部门</th>
+                                <th data-field="positionId" class="col-lg-2">代码</th>
+                                <th data-field="intro" class="col-lg-2">简介</th>
+                                <th data-field="name" class="col-lg-2">姓名</th>
                                 <th data-field="contact" class="col-lg-2">联系方式</th>
                             </tr>
                             </thead>
@@ -53,6 +49,7 @@
                             <tr>
                                 <td></td>
                                 <td>部长</td>
+                                <td>设计部</td>
                                 <td>001</td>
                                 <td>直接对上级负责，贯彻执行上级下达的管理指令，协调各部门的工作关系；</td>
                                 <td>王文君</td>
@@ -61,6 +58,7 @@
                             <tr>
                                 <td></td>
                                 <td>部长</td>
+                                <td>设计部</td>
                                 <td>001</td>
                                 <td>直接对上级负责，贯彻执行上级下达的管理指令，协调各部门的工作关系；</td>
                                 <td>王文君</td>
@@ -69,6 +67,7 @@
                             <tr>
                                 <td></td>
                                 <td>部长</td>
+                                <td>设计部</td>
                                 <td>001</td>
                                 <td>直接对上级负责，贯彻执行上级下达的管理指令，协调各部门的工作关系；</td>
                                 <td>王文君</td>
@@ -77,6 +76,7 @@
                             <tr>
                                 <td></td>
                                 <td>部长</td>
+                                <td>设计部</td>
                                 <td>001</td>
                                 <td>直接对上级负责，贯彻执行上级下达的管理指令，协调各部门的工作关系；</td>
                                 <td>王文君</td>
@@ -85,6 +85,7 @@
                             <tr>
                                 <td></td>
                                 <td>部长</td>
+                                <td>设计部</td>
                                 <td>001</td>
                                 <td>直接对上级负责，贯彻执行上级下达的管理指令，协调各部门的工作关系；</td>
                                 <td>王文君</td>
@@ -93,6 +94,7 @@
                             <tr>
                                 <td></td>
                                 <td>部长</td>
+                                <td>设计部</td>
                                 <td>001</td>
                                 <td>直接对上级负责，贯彻执行上级下达的管理指令，协调各部门的工作关系；</td>
                                 <td>王文君</td>
@@ -101,6 +103,7 @@
                             <tr>
                                 <td></td>
                                 <td>部长</td>
+                                <td>设计部</td>
                                 <td>001</td>
                                 <td>直接对上级负责，贯彻执行上级下达的管理指令，协调各部门的工作关系；</td>
                                 <td>王文君</td>
@@ -109,36 +112,12 @@
                             <tr>
                                 <td></td>
                                 <td>部长</td>
+                                <td>设计部</td>
                                 <td>001</td>
                                 <td>直接对上级负责，贯彻执行上级下达的管理指令，协调各部门的工作关系；</td>
                                 <td>王文君</td>
                                 <td>13276543211</td>
                             </tr>
-                            <tr>
-                                <td></td>
-                                <td>部长</td>
-                                <td>001</td>
-                                <td>直接对上级负责，贯彻执行上级下达的管理指令，协调各部门的工作关系；</td>
-                                <td>王文君</td>
-                                <td>13276543211</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td>部长</td>
-                                <td>001</td>
-                                <td>直接对上级负责，贯彻执行上级下达的管理指令，协调各部门的工作关系；</td>
-                                <td>王文君</td>
-                                <td>13276543211</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td>部长</td>
-                                <td>001</td>
-                                <td>直接对上级负责，贯彻执行上级下达的管理指令，协调各部门的工作关系；</td>
-                                <td>王文君</td>
-                                <td>13276543211</td>
-                            </tr>
-
                             </tbody>
                         </table>
                     </div>
